@@ -7,5 +7,5 @@ spec:
   containers:
     - name: fail
       image: busybox:latest
-      command: ["sh","-c","exit"]
+      command: ["sh","-c","exit 1"]
 
